@@ -1,0 +1,67 @@
+/*background to nav bar*/
+.nav {
+    background-color: #353535;
+    overflow: hidden;
+}
+
+.nav a {
+    float: left;
+    display: block;
+    color: #bbbbbb;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav a:hover {
+    background-color: #a2dc02;
+    color: black;
+}
+
+.nav a.active {
+    background-color: rgb(64, 154, 206);
+    color: white;
+}
+
+.nav .icon {
+    display: none;
+}
+
+@media screen and (max-width: 600px){
+    .nav a:not(:first-child){display: none;}
+    .nav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .nav.responive {position: relative;}
+    .nav.responive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .nav.nav.responive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+body {
+    background-color: #6c7b8b;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
