@@ -1,35 +1,251 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Rwamashongye</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <script async src="app.js"></script>
 
-<html>
-    <head>
-        <link rel="stylesheet" href="style.css">
-        <script src="app.js"></script>
-        <script></script>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="author" content="Alex Rwamashongye">
-        <meta name="keywords" content="engineer">
-        <title>Alex Rwamashongye</title>
-    </head>
-
-    <body>
-        <div class="nav" id="topnav">
-            <a href="index.html" class="active">home</a>
-            <a href="about.html">about</a>
-            <a href="portfolio.html">portfolio</a>
-            <a href="thoughts.html">thoughts</a>
-            <a href="javascript:void(0);" class="icon" onclick="iconButton()">
-                <i class="fa fa-bars"></i>
-            </a>
+</head>
+<body class="main-content">
+    <header class="section sec1 header active" id='home'>
+        <!-- <i class="fa-brands fa-github"></i> -->
+        <!-- <i class="fa-brands fa-instagram"></i> -->
+        <div class="header-content">
+            <div class="left-header">
+                <div class="h-shape"></div>
+                <div class="image">
+                    <img src="" alt="">
+                </div>
+            </div>
+            <div class="right-header">
+                <h1 class="name">
+                    Hi, I'm <span class="name">Alex Rwamashongye.</span>
+                </h1>
+                <p>
+                    I'm an aspiring software engineer. This is my personal website.
+                </p>
+                <div class="btn-con">
+                    <a href="" class="main-btn">
+                        <span class="btn-text">Résumé</span>
+                        <span class="btn-icon"><i class="fa-regular fa-download"></i></span>
+                    </a>
+                </div>
+            </div>
         </div>
-        
-        <h1>
-            Hi, I'm Alex Rwamashongye.
-        </h1>
+    </header>
+    <main>
+        <section class="section sec2 about" id="about">
+            <div class="main-title">
+                <h2>About <span>me</span></h2>
+            </div>
+            <div class="about-container">
+                <div class="left-about">
+                    <h4 class="left-about-header">Information About Me</h4>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt consequatur enim harum alias aut dolores ex soluta delectus esse nihil est deserunt, dicta, itaque, earum hic non necessitatibus culpa quo. 
+                    </p>
+                </div>
+                <div class="right-about">
+                    <div class="about-item">
+                        <div class="about-text">
+                            <p class="large-text">560+</p>
+                            <p class="small-text">Projects <br/> Completed</p>
+                        </div>
+                    </div>
+                    <div class="about-item">
+                        <div class="about-text">
+                            <p class="large-text">1+ yr</p>
+                            <p class="small-text">Experience <br/></p>
+                        </div>
+                    </div>
+                    <div class="about-item">
+                        <div class="about-text">
+                            <p class="large-text">Lorem</p>
+                            <p class="small-text">ipsum <br/> dolor</p>
+                        </div>
+                    </div>
+                    <div class="about-item">
+                        <div class="about-text">
+                            <p class="large-text">Lorem</p>
+                            <p class="small-text">ipsum <br/> dolor</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section sec3 work" id="work">
+            <div class="main-title">
+                <h2>My <span>work</span></h2>
+                <p class="work-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur facere ea tempore iusto quaerat possimus fugiat illum beatae asperiores voluptatum totam, cupiditate incidunt obcaecati soluta accusamus neque porro reprehenderit ducimus.
+                </p>
+                <div class="portfolio">
+                    <!--Project #1-->
+                    <div class="portfolio-item">
+                        <div class="image">
+                            <img src="" alt="">
+                        </div>
+                        <div class="hover-items">
+                            <h3>Project #1</h3>
+                            <div class="icons">
+                                <a href="#" class="icon" target="_blank">
+                                    <i class="fa-brands fa-github"></i>                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Project #2-->
+                    <div class="portfolio-item">
+                        <div class="image">
+                            <img src="" alt="">
+                        </div>
+                        <div class="hover-items">
+                            <h3>Project #2</h3>
+                            <div class="icons">
+                                <a href="#" class="icon">
+                                    <i class="fa-brands fa-github"></i>                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Project #3-->
+                    <div class="portfolio-item">
+                        <div class="image">
+                            <img src="" alt="">
+                        </div>
+                        <div class="hover-items">
+                            <h3>Project #3</h3>
+                            <div class="icons">
+                                <a href="#" class="icon">
+                                    <i class="fa-brands fa-github"></i>                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Project #4-->
+                    <div class="portfolio-item">
+                        <div class="image">
+                            <img src="" alt="">
+                        </div>
+                        <div class="hover-items">
+                            <h3>Project #3</h3>
+                            <div class="icons">
+                                <a href="#" class="icon">
+                                    <i class="fa-brands fa-github"></i>                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Project #5-->
+                    <div class="portfolio-item">
+                        <div class="image">
+                            <img src="" alt="">
+                        </div>
+                        <div class="hover-items">
+                            <h3>Project #3</h3>
+                            <div class="icons">
+                                <a href="#" class="icon">
+                                    <i class="fa-brands fa-github"></i>                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Project #6-->
+                    <div class="portfolio-item">
+                        <div class="image">
+                            <img src="" alt="">
+                        </div>
+                        <div class="hover-items">
+                            <h3>Project #3</h3>
+                            <div class="icons">
+                                <a href="#" class="icon">
+                                    <i class="fa-brands fa-github"></i>                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section sec4 blogs" id="blogs">
+            <div class="blogs-content">
+                <div class="main-title">
+                    <h2>My <span>Blog</span></h2>
+                </div>
+                <div class="writings">
+                    <div class="writing">
+                        <img src="/iamges/img.jpg" alt="">
+                        <div class="writing-text">
+                            <h4>Changing Careers</h4>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates tempora hic quos assumenda veniam, minima officia possimus fugiat, tempore ratione nulla? Voluptatum dolorum hic obcaecati dolor ullam atque? Recusandae, similique!
+                            </p>
+                        </div>
+                    </div>
+                    <!--Other writing-->
+                    <div class="writing">
+                        <img src="/images/img.jpg" alt="">
+                        <div class="writing-text">
+                            <h4>Changing Careers</h4>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates tempora hic quos assumenda veniam, minima officia possimus fugiat, tempore ratione nulla? Voluptatum dolorum hic obcaecati dolor ullam atque? Recusandae, similique!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section sec5 contact" id="contact">
+            <div class="contact-container">
+                <h2>Contact <span>Me</span></h2>
+            </div>
+            <div class="contact-content-container">
+                <div class="left-contact">
+                    <h4>Contact me here</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id voluptate cumque vero sunt vitae magni quo neque voluptas! Sapiente, impedit? Dolor expedita voluptatum amet repellat doloribus quae. Debitis, quia illum?
+                    </p>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="icon">
+                                <i class="fa-regular fa-envelope"></i>
+                                Email
+                                <i class="fa-brands fa-twitter"></i>
+                                Twitter
+                                <i class="fa-brands fa-linkedin"></i>
+                                LinkedIn
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-contact">
 
-        <p>
-            Always building. 
-        </p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <div class="controls">
+        <div class="control control-1 active-btn" data-id="home">
+            <i class="fa-regular fa-house"></i>
+        </div>
 
-    </body>
+        <div class="control control-2" data-id="about">
+            <i class="fa-regular fa-user"></i>
+        </div>
+
+        <div class="control control-3" data-id="work">
+            <i class="fa-regular fa-computer"></i>
+        </div>
+
+        <div class="control control-4" data-id="blogs">
+            <i class="fa-regular fa-pen-to-square"></i>
+        </div>
+
+        <div class="control control-5" data-id="contact">
+            <i class="fa-regular fa-envelope"></i>
+        </div>
+    </div>
+</body>
 </html>
